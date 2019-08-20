@@ -30,4 +30,6 @@ function iLoveTheBeatles(number){
   if (number == 17) {
     output = ['I love the Beatles!'];
   }
+  
+  return output;
 }
