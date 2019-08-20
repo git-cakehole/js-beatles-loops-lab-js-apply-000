@@ -24,7 +24,7 @@ function iLoveTheBeatles(number){
   } while (i < number);
   
   if (number == 7) {
-      output.push('I love the Beatles!');
+      output.pop();
   }
     
   if (number == 17) {
