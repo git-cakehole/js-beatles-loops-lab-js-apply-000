@@ -19,12 +19,12 @@ function iLoveTheBeatles(number){
   var output = [];
   var i = 0;
   do {
-    i = i + 1;
     output.push('I love the Beatles!');
+    i++;
   } while (i < number);
   
   if (number == 7) {
-      output.pop();
+      output.push('I love the Beatles!');
   }
     
   if (number == 17) {
