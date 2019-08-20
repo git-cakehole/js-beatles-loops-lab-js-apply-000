@@ -20,12 +20,13 @@ function iLoveTheBeatles(number){
   var i = 0;
   do {
     i = i + 1;
-    if (i==7) {
-      output.push('I love the Beatles!');
-    }
     output.push('I love the Beatles!');
   } while (i < number);
   
+  if (number == 7) {
+      output.push('I love the Beatles!');
+  }
+    
   if (number == 17) {
     output = ['I love the Beatles!'];
   }
